@@ -1,14 +1,14 @@
 package com.demo.microservice.limitsservice.bean;
 
-public class LimitComfiguration {
+public class LimitConfiguration {
 	private int maximum;
 	private int minimum;
 	
-	protected LimitComfiguration()
+	protected LimitConfiguration()
 	{
 		
 	}
-	public LimitComfiguration(int maximum, int minimum) {
+	public LimitConfiguration(int maximum, int minimum) {
 		super();
 		this.maximum = maximum;
 		this.minimum = minimum;
